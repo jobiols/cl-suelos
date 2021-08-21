@@ -11,20 +11,20 @@ class AccountMoveLine(models.Model):
     #     required=False,
     #     default=1.0
     # )
-    # in_box_qty = fields.Float(
-    #     string="m/m2",
-    #     digits='Product Unit of Measure',
-    # )
-    # prod_in_box = fields.Float(
-    #     string="m2 x caja",
-    #     related="product_id.product_tmpl_id.prod_in_box",
-    #     readonly=True
-    # )
-    # prod_in_box_uom = fields.Selection(
-    #     related="product_id.product_tmpl_id.prod_in_box_uom",
-    #     help="Campo tecnico para mostrar u ocultar metros por caja en la linea de "
-    #          "presupuesto"
-    # )
+    in_box_qty = fields.Float(
+        string="m/m2",
+        digits='Product Unit of Measure',
+    )
+    prod_in_box = fields.Float(
+        string="m2 x caja",
+        related="product_id.product_tmpl_id.prod_in_box",
+        readonly=True
+    )
+    prod_in_box_uom = fields.Selection(
+        related="product_id.product_tmpl_id.prod_in_box_uom",
+        help="Campo tecnico para mostrar u ocultar metros por caja en la linea de "
+             "presupuesto"
+    )
 
     # @api.onchange('product_uom_qty')
     # def onchange_product_uom_qty(self):

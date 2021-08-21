@@ -39,11 +39,13 @@ env:
 git:
   depth: 1
 
+# Deshabilitamos el suelos_default porque queremos testear solo el modulo product_in_box
 install:
 #  - pip install -r requirements.txt
   - git clone --depth=1 https://github.com/jobiols/maintainer-quality-tools.git ${HOME}/maintainer-quality-tools
   - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
   - travis_install_nightly
+  - travis_disable_module suelos_default
 
 script:
   - travis_run_tests

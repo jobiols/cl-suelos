@@ -1,2 +1,2 @@
-odoo-jeo-ce https://github.com/jobiols/odoo-jeo-ce.git 13.0
-odoo-argentina https://github.com/ingadhoc/odoo-argentina.git 13.0
+#odoo-jeo-ce https://github.com/jobiols/odoo-jeo-ce.git 13.0
+#odoo-argentina https://github.com/ingadhoc/odoo-argentina.git 13.0

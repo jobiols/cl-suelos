@@ -30,6 +30,7 @@
     'data': [
         'views/product_template_view.xml',
         'views/sale_order_view.xml',
+        'views/account_move_view.xml',
     ],
     'test': [
     ],
