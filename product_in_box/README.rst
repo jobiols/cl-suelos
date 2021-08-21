@@ -16,15 +16,49 @@ Product In Box
 
 |badge1| |badge2| 
 
-Este módulo permite calcular la cantidad de producto en la que vienen las cajas
+Con este modulo se puede manejar productos que vienen en caja, por ejemplo ceramicas
+las ceramicas se venden por metro cuadrado pero se cobran por cajas.
 
-- Metros cuadrados
-- Metros lineales
+Entonces en el presupuesto se puede poner la cantidad de metros cuadrados a vender y
+el sistema calculará la cantidad de cajas necesiarias recalculando los metros
+cuadrados al que resulta por la cantidad de cajas.
+
+Tambien se puede indicar la cantidad de cajas y el sistema calcula a cuantos metros
+cuadrados equivalen.
+
+Se permite tambien dos unidades de medida para estos productos metros lineales y
+metros cuadrados.
 
 **Table of contents**
 
 .. contents::
    :local:
+
+Usage
+=====
+
+**Modo de uso**
+
+En el campo **Cant. de producto por caja** del formulario de producto se
+determina la cantidad de producto que viene en cada caja pudiendo ser la unidad
+metros lineales o metros cuadrados.
+
+También puede ocurrir que el producto no venga por cajas sino que sea un producto
+individual.
+
+.. list-table::
+    :widths: 5 25
+
+    * - Codigo
+      - Significado
+    * - N/D
+      - El producto no aplica
+    * - mt
+      - Metros lineales por caja
+    * - mt2
+      - Metros cuadrados por caja
+
+      
 
 Bug Tracker
 ===========
