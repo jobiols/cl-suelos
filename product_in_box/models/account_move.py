@@ -4,13 +4,6 @@ from openerp import models, fields, api
 class AccountMoveLine(models.Model):
     _inherit = 'account.move.line'
 
-    # # Sobreescribimos para quitarle el required
-    # product_uom_qty = fields.Float(
-    #     string='Quantity',
-    #     digits='Product Unit of Measure',
-    #     required=False,
-    #     default=1.0
-    # )
     in_box_qty = fields.Float(
         string="m/m2",
         digits='Product Unit of Measure',
@@ -37,14 +30,11 @@ class AccountMoveLine(models.Model):
     @api.onchange('in_box_qty')
     def onchange_in_box_qty(self):
         for rec in self:
-
-            import wdb;wdb.set_trace()
-            
             if rec.prod_in_box_uom != 'na':
                 qty = rec.in_box_qty / rec.prod_in_box if rec.prod_in_box else 0
                 frac = qty - int(qty)
                 if frac != 0:
-                    qty +=1
+                    qty += 1
                 rec.quantity = int(qty)
             else:
                 rec.quantity = 1

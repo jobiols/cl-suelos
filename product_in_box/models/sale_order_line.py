@@ -41,7 +41,7 @@ class SaleOrderLine(models.Model):
                 qty = rec.in_box_qty / rec.prod_in_box if rec.prod_in_box else 0
                 frac = qty - int(qty)
                 if frac != 0:
-                    qty +=1
+                    qty += 1
                 rec.product_uom_qty = int(qty)
             else:
                 rec.product_uom_qty = 1
