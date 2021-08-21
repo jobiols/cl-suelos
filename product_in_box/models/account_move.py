@@ -26,22 +26,25 @@ class AccountMoveLine(models.Model):
              "presupuesto"
     )
 
-    # @api.onchange('product_uom_qty')
-    # def onchange_product_uom_qty(self):
-    #     for rec in self:
-    #         if rec.prod_in_box_uom != 'na':
-    #             rec.in_box_qty = rec.product_uom_qty * rec.prod_in_box
-    #         else:
-    #             rec.in_box_qty = 0
+    @api.onchange('quantity')
+    def onchange_quantity(self):
+        for rec in self:
+            if rec.prod_in_box_uom != 'na':
+                rec.in_box_qty = rec.quantity * rec.prod_in_box
+            else:
+                rec.in_box_qty = 0
 
-    # @api.onchange('in_box_qty')
-    # def onchange_in_box_qty(self):
-    #     for rec in self:
-    #         if rec.prod_in_box_uom != 'na':
-    #             qty = rec.in_box_qty / rec.prod_in_box if rec.prod_in_box else 0
-    #             frac = qty - int(qty)
-    #             if frac != 0:
-    #                 qty +=1
-    #             rec.product_uom_qty = int(qty)
-    #         else:
-    #             rec.product_uom_qty = 1
+    @api.onchange('in_box_qty')
+    def onchange_in_box_qty(self):
+        for rec in self:
+
+            import wdb;wdb.set_trace()
+            
+            if rec.prod_in_box_uom != 'na':
+                qty = rec.in_box_qty / rec.prod_in_box if rec.prod_in_box else 0
+                frac = qty - int(qty)
+                if frac != 0:
+                    qty +=1
+                rec.quantity = int(qty)
+            else:
+                rec.quantity = 1
