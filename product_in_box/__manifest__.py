@@ -25,12 +25,14 @@
     'author': 'jeo Software',
     'depends': [
         'product',
-        'sale'
+        'sale',
+        'l10n_ar_ux'
     ],
     'data': [
         'views/product_template_view.xml',
         'views/sale_order_view.xml',
         'views/account_move_view.xml',
+        'views/account_invoice_line_report_tree.xml'
     ],
     'test': [
     ],

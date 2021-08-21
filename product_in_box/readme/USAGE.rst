@@ -1,22 +1,18 @@
-**Modo de uso**
+Una vez definido en el producto **Cant. de producto por caja**
+al cargar una linea en una orden de venta, se puede cargar la cantidad
+de cajas o la cantidad de producto que hay en la caja ya sea en metros cuadrados o en metros
+lineales, la otra cantidad se recalcula automáticamente.
 
-En el campo **Cant. de producto por caja** del formulario de producto se
-determina la cantidad de producto que viene en cada caja pudiendo ser la unidad
-metros lineales o metros cuadrados.
+Cuando se genera una factura desde la orden de compra los valores
+se copian automaticamente como el resto de los datos.
 
-También puede ocurrir que el producto no venga por cajas sino que sea un producto
-individual.
+Para analizar la cantidad todal de metros o metros cuadrados se
+puede ver **Facturación > Invoice Lines Analysis**
 
-.. list-table::
-    :widths: 5 25
+Aqui se muestran las lineas de factura con los datos, tener en cuenta
+que la sumatoria de la columna m/m2 no tiene en cuenta la unidad solo
+suma numeros por lo que deberan seleccionase las filas que tengan
+la misma unidad para obtener un resultado que tenga sentido.
 
-    * - Codigo
-      - Significado
-    * - N/D
-      - El producto no aplica
-    * - mt
-      - Metros lineales por caja
-    * - mt2
-      - Metros cuadrados por caja
-
-      
+Tambien esta disponible el pivote donde se puede seleccionar
+m/m2 como medida para totalizarlos por multiples criterios.

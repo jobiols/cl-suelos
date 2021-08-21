@@ -45,3 +45,16 @@ class SaleOrderLine(models.Model):
                 rec.product_uom_qty = int(qty)
             else:
                 rec.product_uom_qty = 1
+
+    def _prepare_invoice_line(self):
+        """ Sobreescribimos este método para agregar los campos relacionados con la
+            cantidad de producto por caja
+
+        Prepare the dict of values to create the new invoice line for a sales order
+        line.
+        :param qty: float quantity to invoice
+        """
+        res = super()._prepare_invoice_line()
+        res['in_box_qty'] = self.in_box_qty
+
+        return res
