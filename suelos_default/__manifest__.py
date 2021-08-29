@@ -25,19 +25,16 @@
     'author': 'jeo Software',
     'depends': [
         'standard_depends_ce',
-		
 		'sale',
         'sale_management',
         'purchase',
-		
         'stock',
         'product_in_box',
-		
+
 		#Contabilidad
         'account',
 		'account_ux',
 
-		
 		#Localización
         'l10n_ar',
         'l10n_ar_ux',
@@ -50,6 +47,7 @@
         'l10n_ar_reports',
         'l10n_ar_aeroo_base',
 		'padron_afip',
+        'l10n_ar_export_arba'
 
     ],
     'data': [
@@ -80,7 +78,7 @@
         # Gabriela Rivero
 		#==========================================================================================
         'https://github.com/regaby/odoo-custom regaby-odoo-custom',
-		
+
         # todos juntos
 		#==========================================================================================
         # 'https://github.com/OCA/account-closing oca-account-closing',
