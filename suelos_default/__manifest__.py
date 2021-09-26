@@ -48,6 +48,7 @@
         'l10n_ar_aeroo_base',
 		'padron_afip',
         'l10n_ar_export_arba'
+        'l10n_ar_export_sicore'
 
     ],
     'data': [
@@ -69,6 +70,7 @@
 
     'git-repos': [
         'git@github.com:jobiols/cl-suelos.git',
+        'git@github.com:jobiols/odoo-addons.git',
         'https://github.com/jobiols/odoo-jeo-ce.git',
 
 		# Odoomates
