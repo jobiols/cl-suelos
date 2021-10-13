@@ -49,6 +49,7 @@
 		'padron_afip',
         'l10n_ar_export_arba',
         'l10n_ar_export_sicore',
+        'l10n_ar_stock',
     ],
     'data': [
     ],
