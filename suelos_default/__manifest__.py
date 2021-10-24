@@ -63,7 +63,8 @@
     'env-ver': '2',
     'odoo-license': 'CE',
     'port': '8069',
-
+    'server_user': 'ec2-user',
+    
     'config': [
         'max_cron_threads = 1',
     ],
