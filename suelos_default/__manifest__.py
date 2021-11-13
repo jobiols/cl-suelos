@@ -35,21 +35,8 @@
         'account',
 		'account_ux',
 
-		#Localización
-        'l10n_ar',
-        'l10n_ar_ux',
-        'l10n_ar_afipws',
-        'l10n_ar_afipws_fe',
-        'l10n_ar_bank',
-        'l10n_ar_sale',
-        'l10n_ar_account_withholding',
-        'l10n_latam_invoice_document',
-        'l10n_ar_reports',
-        'l10n_ar_aeroo_base',
-		'padron_afip',
         'l10n_ar_export_arba',
         'l10n_ar_export_sicore',
-        'l10n_ar_stock',
     ],
     'data': [
     ],
