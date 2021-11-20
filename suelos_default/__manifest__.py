@@ -30,7 +30,8 @@
         'purchase',
         'stock',
         'product_in_box',
-
+        'base_user_role',
+        
 		#Contabilidad
         'account',
 		'account_ux',
@@ -112,7 +113,7 @@
         # 'https://github.com/OCA/sale-reporting oca-sale-reporting',
         'https://github.com/OCA/sale-workflow oca-sale-workflow',
         # 'https://github.com/OCA/server-auth oca-server-auth',
-        # 'https://github.com/OCA/server-backend oca-server-backend',
+        'https://github.com/OCA/server-backend oca-server-backend',
         'https://github.com/OCA/server-tools oca-server-tools',
         'https://github.com/OCA/server-ux oca-server-ux',
         # 'https://github.com/OCA/social oca-social',
