@@ -31,7 +31,9 @@
         'stock',
         'product_in_box',
         'base_user_role',
-        
+        'custom_rights',
+        'price_security',
+
 		#Contabilidad
         'account',
 		'account_ux',
