@@ -33,6 +33,7 @@
         'base_user_role',
         'custom_rights',
         'price_security',
+        'sale_discount_limit',
 
 		#Contabilidad
         'account',
