@@ -16,9 +16,8 @@ custom_rights
 
 |badge1| |badge2| 
 
-Este modulo crea algunos grupos para customizar suelos
-
-
+Este modulo deberá crear algunos grupos para customizar suelos
+Todavia no se creó ninguno
 
 **Table of contents**
 
