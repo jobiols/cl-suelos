@@ -18,27 +18,25 @@
 #
 # -----------------------------------------------------------------------------------
 {
-    'name': 'Product In Box',
-    'version': '13.0.1.0.0',
-    'category': 'Tools',
-    'summary': 'Contabilida cantidad de producto en caja',
-    'author': 'jeo Software',
-    'depends': [
-        'product',
-        'sale',
-        'l10n_ar_ux'
+    "name": "Product In Box",
+    "version": "13.0.1.0.0",
+    "category": "Tools",
+    "summary": "Contabilida cantidad de producto en caja",
+    "author": "jeo Software",
+    "depends": [
+        "product",
+        "sale",
+        "l10n_ar_ux",
     ],
-    'data': [
-        'views/product_template_view.xml',
-        'views/sale_order_view.xml',
-        'views/account_move_view.xml',
-        'views/account_invoice_line_report_tree.xml'
+    "data": [
+        "views/product_template_view.xml",
+        "views/sale_order_view.xml",
+        "views/account_move_view.xml",
+        "views/account_invoice_line_report_tree.xml",
     ],
-    'test': [
-    ],
-    'installable': True,
-    'application': True,
-    'auto_install': False,
-    'images': [],
-
+    "test": [],
+    "installable": True,
+    "application": True,
+    "auto_install": False,
+    "images": [],
 }

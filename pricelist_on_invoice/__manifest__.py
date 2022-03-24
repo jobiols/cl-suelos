@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------------------------
 #
-#    Copyright (C) 2021  jeo Software  (http://www.jeo-soft.com.ar)
+#    Copyright (C) 2022  jeo Software  (http://www.jeo-soft.com.ar)
 #    All Rights Reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -18,16 +18,14 @@
 #
 # -----------------------------------------------------------------------------------
 {
-    "name": "custom_rights",
+    "name": "Pricelist on Invoice",
     "version": "13.0.1.0.0",
     "category": "Tools",
-    "summary": "Customización de permisos para suelos",
+    "summary": "Contabilida cantidad de producto en caja",
     "author": "jeo Software",
-    "depends": ["product"],
+    "depends": [],
     "data": [],
     "test": [],
     "installable": True,
-    "application": True,
-    "auto_install": False,
-    "images": [],
+    "application": False,
 }
