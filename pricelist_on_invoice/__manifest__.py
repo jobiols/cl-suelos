@@ -21,10 +21,14 @@
     "name": "Pricelist on Invoice",
     "version": "13.0.1.0.0",
     "category": "Tools",
-    "summary": "Contabilida cantidad de producto en caja",
+    "summary": "Agrega la tarifa en la factura",
     "author": "jeo Software",
-    "depends": [],
-    "data": [],
+    "depends": [
+        "sale",
+    ],
+    "data": [
+        "views/account_move_view.xml",
+    ],
     "test": [],
     "installable": True,
     "application": False,

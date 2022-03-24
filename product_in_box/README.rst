@@ -16,6 +16,8 @@ Product In Box
 
 |badge1| |badge2| 
 
+|
+
 Con este modulo se pueden manejar productos que vienen en caja, por ejemplo ceramicas.
 Las ceramicas se piden por metros cuadrados pero se cobran por cajas.
 
@@ -28,6 +30,8 @@ cuadrados equivalen.
 
 Se permite tambien dos unidades de medida para estos productos metros lineales y
 metros cuadrados.
+
+|
 
 **Table of contents**
 
