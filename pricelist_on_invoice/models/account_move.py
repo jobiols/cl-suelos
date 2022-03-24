@@ -5,7 +5,7 @@ class AccountMove(models.Model):
     _inherit = "account.move"
 
     pricelist_id = fields.Many2one(
-        'product.pricelist',
+        "product.pricelist",
         string="Tarifa",
         readonly=True,
     )

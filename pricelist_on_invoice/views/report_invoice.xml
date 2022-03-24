@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
-<!--
+    <!-- aumentar el tamaño del logo -->
     <template id="custom_header" inherit_id="l10n_ar.custom_header" >
-        <xpath expr="//div/div/div/t/span[7]" position="after">
-            <br/>
-            <span t-att-style="'color: %s;' % o.company_id.secondary_color">Tarifa: </span>
-            <span t-field="o.pricelist_id.name"/>
+        <xpath expr="//img" position="attributes">
+            <attribute name="style">max-height: 85px;</attribute>
         </xpath>
     </template>
--->
 
 <!-- agregar tarifa a la factura -->
 <template id="report_invoice_document_with_payments" inherit_id="l10n_ar.report_invoice_document_with_payments" >
