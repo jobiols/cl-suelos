@@ -34,6 +34,8 @@
         "custom_rights",
         "price_security",
         "sale_discount_limit",
+        "price_security_fix",
+        "pricelist_on_invoice",
         # Contabilidad
         "account",
         "account_ux",
