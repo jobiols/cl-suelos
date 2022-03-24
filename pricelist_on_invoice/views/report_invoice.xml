@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<!--
+    <template id="custom_header" inherit_id="l10n_ar.custom_header" >
+        <xpath expr="//div/div/div/t/span[7]" position="after">
+            <br/>
+            <span t-att-style="'color: %s;' % o.company_id.secondary_color">Tarifa: </span>
+            <span t-field="o.pricelist_id.name"/>
+        </xpath>
+    </template>
+-->
+
+<!-- agregar tarifa a la factura -->
+<template id="report_invoice_document_with_payments" inherit_id="l10n_ar.report_invoice_document_with_payments" >
+    <xpath expr="//div/div/div/t[4]" position="after">
+        <br/>
+        <strong> <span t-att-style="'color: %s;' % o.company_id.secondary_color">Tarifa: </span> </strong>
+        <span t-field="o.pricelist_id.name"/>
+    </xpath>
+</template>
+
+</odoo>

@@ -28,6 +28,7 @@
     ],
     "data": [
         "views/account_move_view.xml",
+        "views/report_invoice.xml",
     ],
     "test": [],
     "installable": True,

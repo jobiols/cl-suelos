@@ -9,6 +9,6 @@ class SaleOrder(models.Model):
 
         self.ensure_one()
         ret = super()._prepare_invoice()
-        ret["pricelist"] = self.pricelist_id.name
+        ret["pricelist_id"] = self.pricelist_id.id
 
         return ret
