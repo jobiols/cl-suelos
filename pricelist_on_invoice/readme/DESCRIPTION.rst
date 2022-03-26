@@ -5,6 +5,4 @@ la lista de precios usada en la orden de venta.
 
 El dato también se imprime con la factura.
 
-Además se agranda el tamaño del logo a 85px
-
 |

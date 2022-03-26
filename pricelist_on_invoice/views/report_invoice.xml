@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
-    <!-- aumentar el tamaño del logo -->
-    <template id="custom_header" inherit_id="l10n_ar.custom_header" >
-        <xpath expr="//img" position="attributes">
-            <attribute name="style">max-height: 85px;</attribute>
-        </xpath>
-    </template>
-
 <!-- agregar tarifa a la factura -->
 <template id="report_invoice_document_with_payments" inherit_id="l10n_ar.report_invoice_document_with_payments" >
     <xpath expr="//div/div/div/t[4]" position="after">
