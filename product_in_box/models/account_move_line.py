@@ -42,10 +42,13 @@ class AccountMoveLine(models.Model):
     def _compute_balance(self):
         """Sobreescribimos este método para agregar la cantidad en caja en las lineas
         de producto"""
-        
+
         for line in self:
-            if not line.exclude_from_invoice_tab:
-                line.name = "%s Total %s %s" % (
+            if (
+                not line.exclude_from_invoice_tab
+                and line.product_id.prod_in_box_uom != "na"
+            ):
+                line.name = "%s Total %.2f %s" % (
                     line.product_id.name,
                     line.product_id.prod_in_box * line.quantity,
                     line.product_id.prod_in_box_uom,
