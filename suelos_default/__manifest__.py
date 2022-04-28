@@ -84,7 +84,7 @@
         "https://github.com/ingadhoc/argentina-reporting ingadhoc-argentina-reporting",
         "https://github.com/ingadhoc/argentina-sale ingadhoc-argentina-sale",
         "https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous",
-        "https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina",
+        "https://github.com/quilsoft-org/odoo-argentina ingadhoc-odoo-argentina",
         "https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce",
         "https://github.com/ingadhoc/product ingadhoc-product",
         "https://github.com/ingadhoc/reporting-engine ingadhoc-reporting-engine",
