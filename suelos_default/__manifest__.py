@@ -57,8 +57,8 @@
     ],
     "git-repos": [
         "https://github.com/jobiols/cl-suelos.git",
-        "git@github.com:jobiols/odoo-addons.git",
-        "git@github.com:jobiols/odoo-jeo-ce.git",
+        "https://github.com/jobiols/odoo-addons.git",
+        "https://github.com/jobiols/odoo-jeo-ce.git",
         # Odoomates
         # ==========================================================================================
         "https://github.com/odoomates/odooapps odoomates-odooapps",
