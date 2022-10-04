@@ -78,6 +78,7 @@
         "https://github.com/OCA/server-ux oca-server-ux",
         "https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow",
         "https://github.com/OCA/web oca-web",
+        "https://github.com/OCA/hr-expense",
         "https://github.com/ingadhoc/account-financial-tools ingadhoc-account-financial-tools",  # noqa
         "https://github.com/ingadhoc/account-payment ingadhoc-account-payment",
         "https://github.com/ingadhoc/aeroo_reports ingadhoc-aeroo_reports",
