@@ -56,7 +56,7 @@
         "max_cron_threads = 1",
     ],
     "git-repos": [
-        "https://github.com/jobiols/cl-suelos.git",
+        "git@github.com:jobiols/cl-suelos.git",
         "https://github.com/jobiols/odoo-addons.git",
         "https://github.com/jobiols/odoo-jeo-ce.git",
         # Odoomates
