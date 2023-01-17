@@ -7,9 +7,9 @@ Product In Box
    !! changes will be overwritten.                   !!
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-.. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
+.. |badge1| image:: https://img.shields.io/badge/maturity-Production%2FStable-green.png
     :target: https://odoo-community.org/page/development-status
-    :alt: Beta
+    :alt: Production/Stable
 .. |badge2| image:: https://img.shields.io/badge/github-jobiols%2Fcl--suelos-lightgray.png?logo=github
     :target: https://github.com/jobiols/cl-suelos/tree/13.0/product_in_box
     :alt: jobiols/cl-suelos
@@ -33,13 +33,22 @@ metros cuadrados.
 
 |
 
-**Table of contents**
+**Tabla de contenidos**
 
 .. contents::
    :local:
 
-Configuration
+Instalación
+===========
+
+|
+
+|
+
+Configuración
 =============
+
+|
 
 En cada producto definir el campo **Cant. de producto por caja**
 por defecto viene en N/D que significa que es un producto normal.
@@ -48,10 +57,12 @@ Si la caja contiene metros cuadrados de producto seleccionar **m2** y la cantida
 
 Si la caja contiene metros lineales de producto seleccionar **m** y la cantidad
 
+|
 
+Uso
+===
 
-Usage
-=====
+|
 
 Una vez definido en el producto **Cant. de producto por caja**
 al cargar una linea en una orden de venta, se puede cargar la cantidad
@@ -72,32 +83,51 @@ la misma unidad para obtener un resultado que tenga sentido.
 Tambien esta disponible el pivote donde se puede seleccionar
 m/m2 como medida para totalizarlos por multiples criterios.
 
-Bug Tracker
-===========
+|
 
-Bugs are tracked on `GitHub Issues <https://github.com/jobiols/cl-suelos/issues>`_.
-In case of trouble, please check there if your issue has already been reported.
-If you spotted it first, help us smashing it by providing a detailed and welcomed
-`feedback <https://github.com/jobiols/cl-suelos/issues/new?body=module:%20product_in_box%0Aversion:%2013.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+Problemas conocidos / Hoja de ruta
+==================================
 
-Do not contact contributors directly about support or help with technical issues.
+|
 
-Credits
-=======
+|
 
-Authors
+Log de cambios
+==============
+
+|
+
+* 13.0.1.1.0 - Se corrije la cantidad de decimales que se muestran en la descripción
+
+|
+
+Creditos
+========
+
+Autores
 ~~~~~~~
 
-* jeo Software
+* WASF
 
-Contributors
-~~~~~~~~~~~~
+Contribuidores
+~~~~~~~~~~~~~~
+
+|
 
 * Jorge Obiols <jorge.obiols@gmail.com> (www.jeosoft.com.ar)
 * Sebastian Batista
 
-Maintainers
-~~~~~~~~~~~
+|
+
+Otros créditos
+~~~~~~~~~~~~~~
+
+|
+
+|
+
+Mantenedores
+~~~~~~~~~~~~
 
 This module is part of the `jobiols/cl-suelos <https://github.com/jobiols/cl-suelos/tree/13.0/product_in_box>`_ project on GitHub.
 

@@ -64,7 +64,7 @@ class SaleOrderLine(models.Model):
         de producto"""
 
         for line in self:
-            line.name = "%s Total %s %s" % (
+            line.name = "%s Total %.2f %s" % (
                 line.product_id.name,
                 line.product_id.prod_in_box * line.product_uom_qty,
                 line.product_id.prod_in_box_uom,

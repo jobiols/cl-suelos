@@ -19,42 +19,32 @@ custom_rights
 Este modulo deberá crear algunos grupos para customizar suelos
 Todavia no se creó ninguno
 
-**Table of contents**
+**Tabla de contenidos**
 
 .. contents::
    :local:
 
-Usage
-=====
+Uso
+===
 
 Solo instalar el modulo y agregar los permisos a los perfiles.
 
-Bug Tracker
-===========
+Creditos
+========
 
-Bugs are tracked on `GitHub Issues <https://github.com/jobiols/cl-suelos/issues>`_.
-In case of trouble, please check there if your issue has already been reported.
-If you spotted it first, help us smashing it by providing a detailed and welcomed
-`feedback <https://github.com/jobiols/cl-suelos/issues/new?body=module:%20custom_rights%0Aversion:%2013.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
-
-Do not contact contributors directly about support or help with technical issues.
-
-Credits
-=======
-
-Authors
+Autores
 ~~~~~~~
 
 * jeo Software
 
-Contributors
-~~~~~~~~~~~~
+Contribuidores
+~~~~~~~~~~~~~~
 
 * Jorge Obiols <jorge.obiols@gmail.com> (www.jeosoft.com.ar)
 * Sebastian Batista
 
-Maintainers
-~~~~~~~~~~~
+Mantenedores
+~~~~~~~~~~~~
 
 This module is part of the `jobiols/cl-suelos <https://github.com/jobiols/cl-suelos/tree/13.0/custom_rights>`_ project on GitHub.
 

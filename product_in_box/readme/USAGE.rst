@@ -1,3 +1,5 @@
+|
+
 Una vez definido en el producto **Cant. de producto por caja**
 al cargar una linea en una orden de venta, se puede cargar la cantidad
 de cajas o la cantidad de producto que hay en la caja ya sea en metros cuadrados o en metros
@@ -16,3 +18,5 @@ la misma unidad para obtener un resultado que tenga sentido.
 
 Tambien esta disponible el pivote donde se puede seleccionar
 m/m2 como medida para totalizarlos por multiples criterios.
+
+|

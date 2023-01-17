@@ -19,10 +19,11 @@
 # -----------------------------------------------------------------------------------
 {
     "name": "Product In Box",
-    "version": "13.0.1.0.0",
+    "version": "13.0.1.1.0",
     "category": "Tools",
     "summary": "Contabilida cantidad de producto en caja",
-    "author": "jeo Software",
+    "author": "WASF",
+    "development_status": "Production/Stable",  # "Alpha|Beta|Production/Stable|Mature"
     "depends": [
         "product",
         "sale",
