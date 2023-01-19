@@ -67,7 +67,7 @@
         "https://github.com/regaby/odoo-custom regaby-odoo-custom",
         # todos juntos
         # ==========================================================================================
-        "https://github.com/OCA/account-financial-reporting oca-account-financial-reporting",  # noqa
+        "https://github.com/OCA/account-financial-reporting oca-account-financial-reporting",
         "https://github.com/OCA/account-financial-tools oca-account-financial-tools",
         "https://github.com/OCA/account-invoicing oca-account-invoicing",
         "https://github.com/OCA/account-payment oca-account-payment",
@@ -78,13 +78,13 @@
         "https://github.com/OCA/server-ux oca-server-ux",
         "https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow",
         "https://github.com/OCA/web oca-web",
-        "https://github.com/ingadhoc/account-financial-tools ingadhoc-account-financial-tools",  # noqa
+        "https://github.com/ingadhoc/account-financial-tools ingadhoc-account-financial-tools",  
         "https://github.com/ingadhoc/account-payment ingadhoc-account-payment",
         "https://github.com/ingadhoc/aeroo_reports ingadhoc-aeroo_reports",
         "https://github.com/ingadhoc/argentina-reporting ingadhoc-argentina-reporting",
         "https://github.com/ingadhoc/argentina-sale ingadhoc-argentina-sale",
         "https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous",
-        "https://github.com/quilsoft-org/odoo-argentina ingadhoc-odoo-argentina",
+        "https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina",
         "https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce",
         "https://github.com/ingadhoc/product ingadhoc-product",
         "https://github.com/ingadhoc/reporting-engine ingadhoc-reporting-engine",
